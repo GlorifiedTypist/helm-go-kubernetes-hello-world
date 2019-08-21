@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  app:
+    restart: always
+    image: jeffvader/helm-go-kubernetes-hello-world
+    ports:
+      - 80:80

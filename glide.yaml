@@ -1,0 +1,4 @@
+package: github.com/GlorifiedTypist/helm-go-kubernetes-hello-world
+import:
+- package: github.com/kelseyhightower/envconfig
+  version: ~1.4.0
